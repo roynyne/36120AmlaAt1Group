@@ -1,32 +1,17 @@
-[build-system]
-requires = ["flit_core >=3.2,<4"]
-build-backend = "flit_core.buildapi"
-
-[project]
+[tool.poetry]
 name = "36120amlaat1group6"
-version = "0.0.1"
-description = "The NBA draft is an annual event in which teams select players from their American colleges as well as international professional leagues to join their rosters."
-authors = [
-  { name = "group6" },
-]
-
+version = "0.1.0"
+description = ""
+authors = ["rusanvaidya <ru7an.1998@gmail.com>"]
 readme = "README.md"
-classifiers = [
-    "Programming Language :: Python :: 3",
-    
-]
-requires-python = "~=3.11"
 
-[tool.black]
-line-length = 99
-include = '\.pyi?$'
-exclude = '''
-/(
-    \.git
-  | \.venv
-)/
-'''
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "2.2.2"
+jupyterlab = "4.2.3"
+scikit-learn = "1.5.1"
 
-[tool.ruff.lint.isort]
-known_first_party = ["36120amlaat1group6"]
-force_sort_within_sections = true
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
