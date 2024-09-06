@@ -173,4 +173,5 @@ cython_debug/
 
 
 submission.csv
-submissions.ipynb
+submission_ada.csv
+submission_grad.csv
