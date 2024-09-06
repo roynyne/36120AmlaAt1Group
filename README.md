@@ -1,5 +1,7 @@
 # 36120AmlaAt1Group6
 
+Link to the test-pypi <a link="https://github.com/rusanvaidya/grp_krml_group6">Link</a>
+
 <a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
